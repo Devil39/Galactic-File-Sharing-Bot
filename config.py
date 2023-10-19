@@ -10,16 +10,16 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("6285168124:AAHm4WK3H0jNWtbWlTrWVnEmgAH2j4CArbE")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN","6285168124:AAHm4WK3H0jNWtbWlTrWVnEmgAH2j4CArbE")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("20120089"))
+APP_ID = int(os.environ.get("APP_ID","20120089"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("dfb3ac85e07f353be8d09110e189a6e0")
+API_HASH = os.environ.get("API_HASH","dfb3ac85e07f353be8d09110e189a6e0")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("-1001736005127"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID","-1001736005127"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("5005777092", ))
@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("5005777092", ))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("mongodb+srv://Devil:<8dTwwn8LFba8dyj>@cluster0.7frtspj.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("Davil")
+DB_URI = os.environ.get("DB_URI","mongodb+srv://Devil:<8dTwwn8LFba8dyj>@cluster0.7frtspj.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DB_NAME","Davil")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "-1001955901470")
