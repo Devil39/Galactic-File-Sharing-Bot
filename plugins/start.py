@@ -85,15 +85,15 @@ async def start_command(client: Client, message: Message):
                 pass
         return
     else:
+        button = [
+            InlineKeyboardButton(text="⚡𝙅𝙤𝙞𝙣⚡" , url="https://t.me/Anime_Galactic") 
+        ]
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    [
-                    InlineKeyboardButton(text="⚡𝙅𝙤𝙞𝙣⚡" , url="https://t.me/Anime_Galactic") ,
                     InlineKeyboardButton("𝑨𝒃𝒐𝒖𝒕 𝑴𝒆", callback_data = "about"),
                     InlineKeyboardButton("𝑪𝒍𝒐𝒔𝒆", callback_data = "close")
-                ]
-                ]     
+                ]          
             ]
         )
         await message.reply_text(
