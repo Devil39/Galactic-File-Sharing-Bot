@@ -32,7 +32,7 @@ DB_URI = os.environ.get("mongodb+srv://Devil:<8dTwwn8LFba8dyj>@cluster0.7frtspj.
 DB_NAME = os.environ.get("Davil")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "0")
+FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "-1001955901470")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
