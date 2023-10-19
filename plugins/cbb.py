@@ -22,6 +22,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 ]
             )
         )
+        )
     elif data == "close":
         await query.message.delete()
         try:
