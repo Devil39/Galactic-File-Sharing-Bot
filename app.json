@@ -6,7 +6,7 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
+  "repository": "https://github.com/Devil/Galactic-File-Sharing-Bot",
   "logo": "https://ibb.co/FgPVtzw",
   "env": {
     "TG_BOT_TOKEN": {
@@ -15,7 +15,7 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "5005777092"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
@@ -27,7 +27,7 @@
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "value": "Devil"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
