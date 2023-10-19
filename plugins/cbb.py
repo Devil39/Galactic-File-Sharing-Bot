@@ -16,7 +16,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                      ┣⪼ \n○ Library : <a href='https://docs.pyrogram.org/'>
                      ┣⪼ </a>\n○ Channel : @Anime_Galactic
                      ┣⪼ \n○ Chat Group : @Britannia_Sins_City</b>",
-                     ╰━━━━━━━━━━━━━━━➣
+                     ╰━━━━━━━━━━━━━━━➣)
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
