@@ -23,17 +23,4 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         try:
             await query.message.reply_to_message.delete()
         except:
-            pass     
-            
-@Bot.on_callback_query()            
-async def join_channal(client: Bot, query: CallbackQuery):
-    data = query.data
-    if data == "join":
-        await query.message.edit_text(
-            reply_markup = InlineKeyboardMarkup(
-                [
-                   [ InlineKeyboardButton(text="Join", url="https://t.me/Anime_Galactic")]
-                ]   
-            )
-        )
-        pass
+            pass
