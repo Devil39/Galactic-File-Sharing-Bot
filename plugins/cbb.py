@@ -13,10 +13,10 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Channel : @Anime_Galactic</b>",   
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
-               [
+                   [
+                        InlineKeyboardButton("⚡𝑱𝒐𝒊𝒏⚡", callback_data = "https://t.me/Anime_Galactic"),
                         InlineKeyboardButton("🔒 Close", callback_data = "close")
-                    
-                ]
+                   ]
             )
         )
     elif data == "close":
