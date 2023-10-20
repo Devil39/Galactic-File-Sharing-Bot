@@ -14,7 +14,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                    [
-                        InlineKeyboardButton("⚡𝑱𝒐𝒊𝒏⚡", callback_data = "https://t.me/Anime_Galactic"),
+                        InlineKeyboardButton("Join", callback_data = "https://t.me/Anime_Galactic"),
                         InlineKeyboardButton("🔒 Close", callback_data = "close")
                    ]
             )
