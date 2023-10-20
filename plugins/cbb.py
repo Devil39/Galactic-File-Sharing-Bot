@@ -25,13 +25,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         except:
             pass
             
- async def cb_handler(client: Bot, query: CallbackQuery):
+ def join_channal(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "join":
         await query.message.edit_text(
             reply_markup = InlineKeyboardMarkup(
                 [
-                    InlineKeyboardButton(text="Join", url="https://t.me/Anime_Galactic")
+                   [ InlineKeyboardButton(text="Join", url="https://t.me/Anime_Galactic")]
                 ]   
             )
         )
