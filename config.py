@@ -41,7 +41,8 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store privat
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
-        ADMINS.append(int(5137934602))
+        ADMINS.append(int(5137934602
+                         2082643093))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
