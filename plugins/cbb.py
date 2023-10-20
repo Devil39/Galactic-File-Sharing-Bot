@@ -24,8 +24,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             await query.message.reply_to_message.delete()
         except:
             pass
+   ,         
             
- def join_channal(client: Bot, query: CallbackQuery):
+def join_channal(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "join":
         await query.message.edit_text(
