@@ -25,6 +25,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         except:
             pass     
             
+@Bot.on_callback_query()            
 async def join_channal(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "join":
