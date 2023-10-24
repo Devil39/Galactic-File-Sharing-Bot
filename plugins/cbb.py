@@ -14,7 +14,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 ┣⪼Language : <code>Python3</code>
 ┣⪼Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {version}</a>
 ┣⪼Channel : @Anime_Galactic
-╰━━━━━━━━━━━━━━━</b>""",
+╰━━━━━━━━━━━━━━━➣</b>""",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
