@@ -92,10 +92,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("𝑪𝒍𝒐𝒔𝒆", callback_data = "close")                        
                 ]          
             ]
-        )
-        if Config.START_PIC:
-        await message.reply_photo(Config.START_PIC)
-                                  
+        )                        
         await message.reply_text(
             text = START_MSG.format(
                 first = message.from_user.first_name,
